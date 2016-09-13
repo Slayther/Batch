@@ -1,7 +1,0 @@
-@echo off & echo Skidam videe u %~dp0 & echo Ako ovo nije zeljeno, pritisnite X da izadjete i stavite ovaj program u zeljeni folder & echo. & echo.
-for %%x in (
-
-) do (
-youtube-dl -f 18 -c -o "C:\Users\Raketa\Desktop\Zika\%%(title)s.%%(ext)s" -i %%x
-)
-(goto) 2>nul & del "%~f0"
